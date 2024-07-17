@@ -8,6 +8,7 @@ public class SpaceshipScript : MonoBehaviour
     public float flapStrength;
     public LogicScript logic;
     public bool birdIsALive = true;
+  
 
     // Start is called before the first frame update
     void Start()
