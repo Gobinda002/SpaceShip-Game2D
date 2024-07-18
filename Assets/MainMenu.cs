@@ -13,16 +13,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1); 
     }
-    /*public void ShowExitPanel()
-    {
+     public void ShowExitPanel()
+     {
         exitPanel.SetActive(false);
-    }*/
-
-    public void ShowExitPannel()
-    {
-        exitPanel.SetActive(false);
-    }
-
+     }
 
     public void QuitGame()
     {
