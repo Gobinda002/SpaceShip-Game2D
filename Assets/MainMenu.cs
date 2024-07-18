@@ -15,12 +15,16 @@ public class MainMenu : MonoBehaviour
     }
      public void ShowExitPanel()
      {
-        exitPanel.SetActive(false);
+        exitPanel.SetActive(true);
      }
 
     public void QuitGame()
     {
         Application.Quit();
     }
-
+    
+    public void HideExitPannel()
+    {
+        exitPanel.SetActive(false);
+    }
 }
