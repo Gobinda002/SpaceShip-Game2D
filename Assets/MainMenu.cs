@@ -10,4 +10,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(0); // Replace with your game scene name
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
 }
