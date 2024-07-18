@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 public class PauseScript : MonoBehaviour
 {
     public GameObject pause;
+    public AudioSource song;
     // Start is called before the first frame update
 
     public void showOptionPanel()
     {
-
         pause.SetActive(true);
         Time.timeScale = 0;
+        song.Pause();
     }
 
     public void Continue()
