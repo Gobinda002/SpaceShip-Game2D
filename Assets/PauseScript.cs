@@ -6,14 +6,17 @@ public class PauseScript : MonoBehaviour
 {
     public GameObject pause;
     // Start is called before the first frame update
-    void Start()
+
+    public void showOptionPanel()
     {
-        
+
+        pause.SetActive(true);
+        Time.timeScale = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Continue()
     {
-        
+        pause.SetActive(false);
+        Time.timeScale = 1;
     }
 }
