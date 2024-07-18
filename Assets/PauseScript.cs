@@ -13,7 +13,7 @@ public class PauseScript : MonoBehaviour
     {
         pause.SetActive(true);
         Time.timeScale = 0;
-        song.Pause();
+        
     }
 
     public void Continue()
