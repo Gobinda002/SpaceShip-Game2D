@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     }
      public void ShowExitPanel()
      {
-        exitPanel.SetActive(true);
+            exitPanel.SetActive(true);              
      }
 
     public void QuitGame()
